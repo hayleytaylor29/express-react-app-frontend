@@ -7,8 +7,10 @@ function Header(props) {
         justifyContent: 'space-around',
         border: '3px solid black',
         padding: '8px',
-        width: '90%',
+        width: '80%',
         margin: 'auto',
+        textAlign: 'center',
+      
     };
 
     return (
@@ -18,11 +20,11 @@ function Header(props) {
                 <Link to='/'>
                     <div>HOME</div>
                 </Link>
-                <Link to='/about'>
-                    <div>ABOUT</div>
-                </Link>
                 <Link to='/projects'>
                     <div>PROJECTS</div>
+                </Link>
+                <Link to='/about'>
+                    <div>ABOUT</div>
                 </Link>
             </nav>
         </header>
